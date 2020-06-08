@@ -1,3 +1,23 @@
 h1 {
   color: salmon;
 }
+
+body {
+  text-align: center;
+}
+.containter {
+  position: relative;
+  margin: 0 auto;
+}
+.image {
+  display: inline-block;
+  position: relative;
+  background-size: cover;
+}
+.text {
+  color: white;
+  position: absolute;
+  bottom: 50%;
+  right: 50%;
+  transform: translate(50%, 50%);
+}
